@@ -89,7 +89,7 @@
         android:layout_marginRight="50dp"
         android:drawableBottom="@drawable/red_line_padded"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="Rizal Elsa Fanny"
+        android:text="Jonathan Doe"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
