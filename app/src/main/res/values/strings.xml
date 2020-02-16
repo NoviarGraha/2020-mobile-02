@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MarketplaceLayout</string>
+
+
+    <string-array name="names">
+        <item>Tulungagung</item>
+        <item>Blitar</item>
+        <item>Malang</item>
+        <item>Nganjuk</item>
+        <item>Kediri</item>
+        <item>Trenggalek</item>
+    </string-array>
 </resources>

@@ -66,10 +66,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="18dp"
         android:background="@drawable/btn_white_small"
-        android:text="Login"
         android:fontFamily="@font/futura_pt_demibold"
-        android:textColor="#F7301F"
+        android:text="Login"
         android:textAllCaps="false"
+        android:textColor="#F7301F"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_login" />
 
@@ -132,12 +132,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Enter as guest"
         android:fontFamily="@font/futura_pt_demibold"
+        android:text="Enter as guest"
         android:textColor="#AAAAAF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_fb" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
