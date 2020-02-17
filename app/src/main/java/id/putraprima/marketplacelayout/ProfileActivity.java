@@ -73,4 +73,8 @@ public class ProfileActivity extends AppCompatActivity {
             imgProfile.setImageURI(data.getData());
         }
     }
+    public void backToRegister(View view){
+        Intent intent = new Intent(this,RegisterActivity.class);
+        startActivity(intent);
+    }
 }
